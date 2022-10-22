@@ -19,6 +19,17 @@
     background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), url('../img/Rectangle\ 237.png');
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .header-contents{
+    width: 826px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 .header .header-contents h1{
@@ -26,12 +37,16 @@
     font-size:65px;
     font-weight: 700;
     color: white;
+    text-align: center;
 }
 .header .header-contents p{
     font-family:var(--poppins);
     font-size:18px;
     font-weight: 400;
     color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 .header .header-contents button{
     width: 160px; 
