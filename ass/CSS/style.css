@@ -157,3 +157,79 @@
     color: white;
     cursor: pointer;
 }
+
+/* donate-plan*/
+
+.donate-plan{
+    margin-top: 130px;
+}
+
+.donate-plan .donate-plan-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.donate-plan .donate-plan-content h1{
+    font-family: var(--inter);
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    
+}
+.donate-plan .donate-plan-content p{
+    font-family: var(--poppins);
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--additional-color);
+    width: 691px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.donate-plan .donate-plan-cards{
+    display: grid;
+    grid-template-columns: repeat(3,360px);
+    grid-template-rows: 352px;
+    justify-content: center;
+    grid-column-gap: 24px;
+}
+
+
+.donate-plan .donate-plan-cards .donate-plan-card{
+    width: 360px;
+    height: 352px;
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+}
+.donate-plan .donate-plan-cards .donate-plan-red{
+    width: 360px;
+    height: 352px;
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+}
+.donate-plan .donate-plan-cards .donate-plan-yellow{
+    width: 360px;
+    height: 352px;
+    background: #FFF4D6;
+    border-radius: 5px;
+}
+
+.donate-plan .donate-plan-cards .donate-plan-card img{
+    margin: 63.5px 0px 31.73px 23px;
+}
+.donate-plan .donate-plan-cards .donate-plan-card h1{
+    font-family: var(--poppins);
+    font-weight: 600;
+    font-size: 24px;
+    margin: 0px 0px 16px 23px;
+}
+
+.donate-plan .donate-plan-cards .donate-plan-card p{
+    font-family: var(--poppins);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--additional-color);
+    width: 318px;
+    margin-left: 23px;
+}
